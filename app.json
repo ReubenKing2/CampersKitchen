@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Camper's Kitchen",
+    "slug": "campers-kitchen",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1C2B1E"
+    },
+    "plugins": [
+  [
+    "expo-location",
+    {
+      "locationWhenInUsePermission": "Camper's Kitchen needs your location to find nearby shops."
+    }
+  ]
+],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.camperskitchen.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1C2B1E"
+      },
+      "package": "com.camperskitchen.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "camperskitchen"
+  }
+}
